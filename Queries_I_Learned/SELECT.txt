@@ -1,0 +1,3 @@
+SELECT * FROM film;
+
+Basically, selecting all from the film table. I think.
