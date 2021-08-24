@@ -1,3 +1,7 @@
 SELECT * FROM film;
 
-Basically, selecting all from the film table. I think.
+Select is pretty simple, it just selects a column from a table.
+
+# Challenge: Return the names and emails of existing customers for use in a promotional email list.
+SELECT first_name, last_name, email FROM customer;
+

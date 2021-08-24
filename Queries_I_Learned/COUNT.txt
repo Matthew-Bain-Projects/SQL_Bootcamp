@@ -1,0 +1,8 @@
+Return number of rows that match a query
+- by itself it just returns number of rows
+
+SELECT COUNT(name) FROM table;
+
+Can be combined with other terms, like DISTINCT
+
+SELECT COUNT(DISTINCT(name)) FROM table;
