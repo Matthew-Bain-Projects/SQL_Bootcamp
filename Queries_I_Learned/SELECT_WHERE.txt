@@ -1,0 +1,8 @@
+select a column from table where a condition happens
+filters the rows
+
+Operators:
+Comparisons >=<!
+Logical Operators and, or , etc
+
+SELECT something FROM table WHERE something > something_else

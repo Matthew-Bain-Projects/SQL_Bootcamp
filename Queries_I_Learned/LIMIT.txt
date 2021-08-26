@@ -1,0 +1,6 @@
+limit the number of rows returned from a query
+very last end of request
+
+SELECT * FROM table 
+ORDER BY something asc/desc
+limit number

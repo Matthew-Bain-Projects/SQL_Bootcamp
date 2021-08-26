@@ -1,0 +1,3 @@
+sort rows based on column value
+
+SELECT columns FROM table ORDER_BY column ASC/DESC

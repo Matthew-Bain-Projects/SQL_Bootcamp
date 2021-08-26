@@ -1,0 +1,3 @@
+check against a list of multiple options
+
+value IN ('one', 'two')

@@ -1,0 +1,11 @@
+LIKE: 
+perform pattern matching
+% matches and sequence
+_ any one character
+case sensitive
+
+
+ILIKE: 
+case insensitive
+
+kind of like regex
