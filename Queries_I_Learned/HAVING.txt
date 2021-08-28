@@ -1,0 +1,8 @@
+# Having
+
+allows us to filter after an aggregation
+
+SELECT company, SUM(sales) 
+FROM finance_table
+GROUP BY company
+HAVING sum(sales) > 1000

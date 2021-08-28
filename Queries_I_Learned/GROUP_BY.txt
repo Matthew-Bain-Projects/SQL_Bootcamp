@@ -1,0 +1,11 @@
+allows to aggregate columns per some category
+
+need a category to group on 
+split table up based on category
+for example sum all data per category
+
+select category, SUM(data_column) from table GROUP BY category 
+
+group by column must be in the select if they don't have an aggregate function associated with it
+
+

@@ -1,0 +1,12 @@
+Take multiple inputs and return single output
+
+Common ones:
+AVG() returns a float (can round)
+Count()
+Mac()
+Min()
+Sum()
+
+Only in select and having
+
+
