@@ -1,0 +1,13 @@
+#INNER JOIN
+
+Combine multiple tables together
+
+returns result with set of records that match in both tables
+
+SELECT * FROM TableA 
+INNER JOIN TableB
+ON TableA.col_match = TableB.col_match
+
+Kind of venn diagramm-y
+
+

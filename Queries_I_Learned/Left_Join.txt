@@ -1,0 +1,13 @@
+Select everything in TableA, where it is either in Both tables or only table A
+
+SELECT * FROM TableA
+LEFT OUTER JOIN TableB
+ON Table.col = TableB.col
+
+
+What if we only wanted the unique left entries
+
+SELECT * FROM TableA
+LEFT OUTER JOIN TableB
+ON TableA.col = TableB.col
+WHERE TableB.other_cols IS null

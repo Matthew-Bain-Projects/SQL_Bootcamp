@@ -1,0 +1,7 @@
+Create an Alias for a column or result
+
+SELECT column AS new_name FROM table;
+
+AS executed at the end. Not a real variable :(
+
+

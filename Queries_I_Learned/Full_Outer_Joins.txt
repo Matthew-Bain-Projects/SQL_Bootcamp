@@ -1,0 +1,19 @@
+Specify how to deal with values only present in one of the tables being joined
+
+Grabs literally everything from both tables
+
+SELECT * FROM TableA
+FULL OUTER JOIN TableB
+ON TableA.col = TableB.col
+
+
+
+Qualify with WHERE
+- outside of venn diagram
+
+SELECT * FROM TableA
+FULL OUTER JOIN TableB
+ON TableA.col = TableB.col
+WHERE TableA.is IS null OR TableB.id IS null
+
+

@@ -1,0 +1,9 @@
+# UNIONS
+
+combines the result-set of two or more select statements
+
+SELECT column_names FROM table1
+UNION
+SELECT column_names FROM table2
+
+
