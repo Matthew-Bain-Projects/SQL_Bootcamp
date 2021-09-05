@@ -1,0 +1,20 @@
+#Subquery
+
+allows you to construct a query from the results of another query. Finally!
+
+Get students who scored higher than avg grade
+
+SELECT student,grade
+FROM test_scores
+WHERE grade > (SELECT AVG(grade)
+		FROM test_scores)
+
+
+EXISTS:
+- used to test for existence of rows in a subquery
+
+SELECT col_name
+from table_name
+where exists
+(select col name from table name
+	where condition)

@@ -1,0 +1,9 @@
+# Strings!
+
+can do concatination
+search for substrings, tons of stuff in documentation. 
+
+SELECT length(first_name) from customer
+
+select first_name || ' ' || last_name as full_name
+from customer

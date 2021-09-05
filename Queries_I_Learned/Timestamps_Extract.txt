@@ -14,3 +14,19 @@ CURRENT_TIME
 
 CURRENT_DATE
 
+
+
+## Part Two
+
+EXTRACT()
+	YEAR
+	MONTH
+	DATE
+	QUARTER
+EXTRACT(YEAR FROM date_col)
+
+AGE()
+	Calculates current age given a timestamp
+
+TO_CHAR()
+	Convert data types to characters
