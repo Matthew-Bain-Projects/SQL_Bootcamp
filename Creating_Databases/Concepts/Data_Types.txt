@@ -1,0 +1,16 @@
+# Data Types
+
+## Main
+- Bool
+- Char
+- Numeric
+- Temporal/Time
+- UUID
+- Array
+- JSON
+- Hstore (tuple/dict/hash/whatever)
+- other specialized types
+
+Should carefully consider data types being stored
+
+ 

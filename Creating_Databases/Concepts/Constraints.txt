@@ -1,0 +1,29 @@
+# Constraints
+
+Rules enforced on data columns on table
+can also contain the whole table
+limit what can be in a space
+
+Column Constraints
+- in a column
+Table Constraints
+- in a table
+
+Common Column:
+- NOT NULL
+- UNIQUE
+- PRIMARY KEY
+- FOREIGN KEY
+- CHECK 
+	- ensure values in column satisfy certain conditions
+- EXCLUSION
+	- not all of comparisons will return true
+
+
+Common Table: 
+- CHECK(condition)
+- REFERENCES()
+- UNIQUE(col_list)
+- PRIMARY KEY(col_list)
+
+

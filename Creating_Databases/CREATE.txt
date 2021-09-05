@@ -1,0 +1,14 @@
+#CREATE
+
+CREATE TABLE name(
+	col_name TYPE col_constraint,
+	col_name TYPE col_constraint,
+	col_name TYPE col_constraint,
+	table_constraint table_constraint)
+	INHERITS existing_table_name;
+
+CREATE TABLE players(
+	player_id SERIAL PRIMARY KEY,
+	age SMALLINT NOT NULL
+	);  
+	

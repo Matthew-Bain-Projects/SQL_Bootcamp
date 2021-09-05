@@ -1,0 +1,7 @@
+# ALTER
+
+allows you to change the table structure
+
+ALTER TABLE table_name action
+
+

@@ -1,0 +1,5 @@
+# DROP
+
+Completely remove column from table
+
+will not remove it from other things unless used with the CASCADE clause

@@ -1,0 +1,12 @@
+# Keys
+
+Primary Key: column or group of columns used to identify a row uniquely in a table
+- ex: UUID
+- designated by [PK] in pgadmin
+- integer based and unique
+
+Foreign Key
+- uniquely identifies a row in another table
+- called referenceing table
+- can have multiple foregin keys
+

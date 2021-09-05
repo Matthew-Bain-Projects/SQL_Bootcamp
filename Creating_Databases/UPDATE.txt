@@ -1,0 +1,9 @@
+# UPDATE
+
+allows to change values in a column
+
+UPDATE table
+SET column1 = val1
+	column2 = val2
+where
+	condition;
