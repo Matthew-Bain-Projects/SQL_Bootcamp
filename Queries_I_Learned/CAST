@@ -1,0 +1,3 @@
+convert from one type to another
+
+CAST('5' AS INTEGER)

@@ -1,0 +1,10 @@
+returns first non null value
+
+COALESCE(1,2,3)
+
+COALESCE(NULL, 1, 2)
+
+both return 1
+
+
+
